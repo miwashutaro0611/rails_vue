@@ -1,7 +1,8 @@
-<template>
-  <div>
-    <p>{{ message }}</p>
-  </div>
+<template lang="pug">
+  div
+    p 
+      | {{ message }}
+      span spanの内容でーす
 </template>
 
 <script>
