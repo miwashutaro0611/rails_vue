@@ -1,16 +1,17 @@
 <template>
-  <div id="app">
+  <div>
     <p>{{ message }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  data: function () {
+  name: 'hello-temp',
+  data () {
     return {
       message: "Hello Vue!"
     }
-  }
+  },
 }
 </script>
 
@@ -18,5 +19,6 @@ export default {
 p {
   font-size: 2em;
   text-align: center;
+  color: #00f;
 }
 </style>
