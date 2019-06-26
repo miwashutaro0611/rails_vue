@@ -2,17 +2,14 @@
   div
     p 
       | {{ message }}
-      span spanの内容でーすよ！
 </template>
 
-<script>
-export default {
-  name: 'hello-temp',
-  data () {
-    return {
-      message: "Hello Vue!"
-    }
-  },
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class HelloVue extends Vue {
+  message : string = 'Hello Vue!'
 }
 </script>
 
@@ -20,7 +17,7 @@ export default {
 p {
   font-size: 2em;
   text-align: center;
-  color: #00f;
+  color: #0ff;
   span {
     font-size: 3rem;
   }
