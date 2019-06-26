@@ -2,7 +2,7 @@
   div
     p 
       | {{ message }}
-      span spanの内容でーす
+      span spanの内容でーすよ！
 </template>
 
 <script>
