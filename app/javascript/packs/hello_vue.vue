@@ -16,10 +16,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 p {
   font-size: 2em;
   text-align: center;
   color: #00f;
+  span {
+    font-size: 3rem;
+  }
 }
 </style>
