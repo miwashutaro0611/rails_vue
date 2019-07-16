@@ -32,6 +32,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "build-storybook && mv ._headers storybook-static/_headers"
   }
 }
