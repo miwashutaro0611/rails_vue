@@ -17,7 +17,7 @@ export default class HelloVue extends Vue {
 p {
   font-size: 2em;
   text-align: center;
-  color: #00f;
+  color: #0ff;
   span {
     font-size: 3rem;
   }
