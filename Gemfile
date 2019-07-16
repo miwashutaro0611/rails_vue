@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'webpacker', '~> 3.3'
 gem 'slim-rails'
 gem 'html2slim'
+gem "foreman"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
