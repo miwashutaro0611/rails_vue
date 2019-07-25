@@ -1,26 +1,20 @@
 <template lang="pug">
-  test(:message = "message")
+  test( :message = "message" )
 </template>
 
-<script>
-import Vue from 'vue'
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator"
 import { storiesOf } from '@storybook/vue'
 import { linkTo } from '@storybook/addon-links'
 
-import Test from './index'
+import Test from './index.vue'
 
-const testStory = {
-    components: {
-      Test
-    },
-    data() {
-      return{
-        message: 'Hello Vue!'
-      }
-    }
-}
-
-export default testStory
+@Component({
+  components: {
+    Test
+  },
+})
+export default class testStory extends Vue{}
 
 storiesOf('Welcome', module)
   .add('to Storybook', () => testStory)
