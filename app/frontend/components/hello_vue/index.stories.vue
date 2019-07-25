@@ -1,9 +1,5 @@
-<template>
-  <div>
-    <p>
-      {{ message }}
-    </p>
-  </div>
+<template lang="pug">
+  test(:message = "message")
 </template>
 
 <script>
@@ -11,11 +7,11 @@ import Vue from 'vue'
 import { storiesOf } from '@storybook/vue'
 import { linkTo } from '@storybook/addon-links'
 
-// import Welcome from './index'
+import Test from './index'
 
 const testStory = {
     components: {
-      Welcome
+      Test
     },
     data() {
       return{
