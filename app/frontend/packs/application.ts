@@ -3,7 +3,7 @@
 
 import Vue from 'vue/dist/vue.esm'
 
-import vueComp from '../components/hello_vue/'
+import vueComp from '../components/hello_vue'
 
 document.addEventListener('DOMContentLoaded', () => {
   new Vue({
