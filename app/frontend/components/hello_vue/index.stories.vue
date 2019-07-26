@@ -1,11 +1,10 @@
 <template lang="pug">
-  test( :message = "message" )
+  test
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator"
 import { storiesOf } from '@storybook/vue'
-import { linkTo } from '@storybook/addon-links'
 
 import Test from './index.vue'
 
